@@ -5,7 +5,7 @@ Introduction to Python
 @author: Daniel J. Vera, Ph.D.
 """
 # Finger exercise section 2.2 Branching Programs
-# Write a program that examines three variables— x, y, and z— and prints the 
+# Write a program that examines three variables — x, y, and z — and prints the 
 # largest odd number among them. If none of them are odd, it should print a 
 # message to that effect.
 #%%
@@ -49,6 +49,8 @@ elif y % 2 != 0: # at least one is odd, x is even, so check y
 else: # we know at least one is odd and x and y are both even, hence z
     print(z, "is largest odd.")
 
+
+
 # At this point in the book, iteration has not been introduced but a
 # faster way uses list and for loops:
 x = int(input("Please type an integer: "))
@@ -65,6 +67,8 @@ if len(odds) == 0:
 else:
     max_odd = max(odds)
     print(max_odd, "is the largest odd.")
+
+
 #%%=========================================================================
 # Finger exercise section 2.4 Iteration
 # Replace the comment in the following code with a while loop. 
@@ -103,5 +107,4 @@ while count != 0:
 if current_max % 2 == 0:
     print("All integers entered were even")
 else:
-    print(current_max, "is the largest odd integer.")    
-
+    print(current_max, "is the largest odd integer.")
