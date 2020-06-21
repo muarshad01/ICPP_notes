@@ -1,14 +1,14 @@
-# At this point in the book, iteration has not been introduced but a
-# faster way uses list and for loops:
+# At this point in the book, iteration has not been 
+# introduced but a faster way uses list and for loops:
 
 x = int(input("Please type an integer: "))
 y = int(input("Please type an integer: "))
 z = int(input("Please type an integer: "))
 
-list_numbers = [x, y, z]
+numbers = [x, y, z]
 odds = []
 
-for i in list_numbers:
+for i in numbers:
     if i % 2 != 0:
         odds.append(i)
 
