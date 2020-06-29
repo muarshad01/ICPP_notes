@@ -118,6 +118,7 @@ def test_find_root():
                 print('    No root')
             else:
                 print('    ', result**power, '~=', x)
+ 
     
 #%% Recursion ==============================================================
 def iterative_factorial(n):
